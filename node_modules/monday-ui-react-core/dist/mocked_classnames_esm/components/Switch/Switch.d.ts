@@ -1,0 +1,20 @@
+import { ReactElement } from "react";
+import { VibeComponent, VibeComponentProps } from "../../types";
+import { MockToggleProps } from "../Toggle/MockToggle";
+interface SwitchProps extends VibeComponentProps {
+    name?: string;
+    value?: string;
+    role?: string;
+    disabled?: boolean;
+    ariaLabel?: string;
+    ariaLabelledBy?: string;
+    checked?: boolean;
+    inputClassName?: string;
+    onChange?: (value: boolean) => void;
+    ariaControls?: string;
+    defaultChecked?: boolean;
+    children?: ReactElement<MockToggleProps>;
+    wrapperClassName?: string;
+}
+export declare const Switch: VibeComponent<SwitchProps, HTMLInputElement>;
+export {};

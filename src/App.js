@@ -10,8 +10,8 @@ function App() {
 	const [unit, setUnit] = useState("");
 	const [dark, setDark] = useState(false);
 	const [ref1, setRef1] = useState(0);
-	const [ref3, setRef2] = useState(0);
-	const [ref2, setRef3] = useState(0);
+	const [ref2, setRef2] = useState(0);
+	const [ref3, setRef3] = useState(0);
 
 	console.log(ref1);
 	return (
